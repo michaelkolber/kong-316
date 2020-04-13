@@ -5,7 +5,7 @@ solutions as some other repositories do.
 
 ## Lisp Assignments
 
-Lisp assignment helpers can be found in the `lisp` folder.
+Lisp assignment testing scripts can be found in the `lisp` folder.
 
 To use them, place your file in the same folder as the testing script. Then,
 modify the script to load your file instead of `lastname-x.lsp`. Finally, run
