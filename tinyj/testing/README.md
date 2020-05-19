@@ -23,3 +23,14 @@ Tip: Add a stacktrace to Kong's `accept()` method so you know where exactly the 
 
 Tip 2: Use Notepad++ with the Compare plugin to help you debug. It will show you the files side by
 side and highlight the differences so you can see if your version missed any tokens.
+
+## TJ3asn
+
+- Follow the first two steps above.
+- Run `python testing\TJ3asn\generate_solutions.py` to generate the solutions into the `solutions`
+folder. You only have to do this once.
+- Run `python testing\TJ3asn\generate_attempts.py` to run the virtual machine against each of the
+example files using your instruction code.
+- Run `python testing\TJ3asn\compare.py` to compare all of your attempts against the solutions to
+make sure the generated instructions and memory dumps (and parse trees) match. The program will tell
+you which files did not match. If all files match, it will tell you `All good!`.
